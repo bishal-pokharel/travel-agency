@@ -1,0 +1,259 @@
+body{
+	margin:0;
+	padding: 0;
+}
+#imageDiv{
+	height:650px;
+	border:1px solid #c3c3c3;
+	position:relative;
+	overflow: hidden;
+	
+}
+img{
+	height: 650px;
+	width: 100%;
+	object-fit: cover;
+}
+#menu{
+		height: 50px;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-top: 20px;
+		padding: 5px 80px;
+		box-sizing: border-box;
+		text-align: right;
+
+}
+
+#menu ul li{
+		display: inline;
+		padding: 5px;
+}
+#menu ul a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0px 15px;
+	line-height: 10px;
+	color: green;
+}
+#menu ul li:hover{
+	background: #c3c3c3;
+}
+#menu ul li a:hover{
+	color: white;
+}
+
+#txt{
+	height: 150px;
+	width: 400px;
+	float: center;
+	
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	text-align: center;
+}
+#h1{
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	color: white;
+}
+#search{
+	position: absolute;
+	top:90%;
+	left:80%;
+	color: white;
+}
+
+#logo1{
+	background: red;
+	border: 2px solid #555;
+	height: 50px;
+	width: 150px;
+	border-radius: 10px 10px 10px 10px;
+	padding:0;
+	position: fixed;
+	top: 65%;
+	left:-100px;
+}
+#logo1 h4{
+	float: left;
+}
+#logo1 img{
+	padding-top: 5px;
+	height: 40px;
+	width: 50px;
+	float: right;
+	
+}
+#logo2{
+	background: red;
+	border: 2px solid #555;
+	height: 50px;
+	width: 150px;
+	border-radius: 10px 10px 10px 10px;
+	padding:0;
+	position: fixed;
+	top: 75%;
+	left:-100px;
+}
+#logo2 h4{
+	float: left;
+}
+#logo2 img{
+	padding-top: 5px;
+	height: 40px;
+	width: 50px;
+	float: right;
+	
+}
+#logo3{
+	background: red;
+	border: 2px solid #555;
+	height: 50px;
+	width: 150px;
+	border-radius: 10px 10px 10px 10px;
+	padding:0;
+	position: fixed;
+	top: 85%;
+	left:-100px;
+}
+#logo3 h4{
+	float: left;
+}
+#logo3 img{
+	padding-top: 5px;
+	height: 40px;
+	width: 50px;
+	float: right;
+	
+}
+
+#txt p{
+	position: relative;
+	background: white;
+	display: none;
+}
+#txt h2{
+	position: relative;
+	display: block;
+}
+
+
+#sidebar{
+	height: 500px;
+	width: 700px;
+	float: left;
+}
+#sidebar img{
+	height: 500px;
+	object-fit: cover;
+}
+#header{
+	height: 500px;
+	width: 600px;
+	padding: 50px;
+	font-family: arial;
+	letter-spacing: 3px;
+	float: right;
+	box-sizing: border-box;
+}
+#header p{
+	padding: 5px;
+	word-spacing: 5px;
+	line-height: 25px;
+	padding-top:10px;
+}
+
+#footer{
+	background-color: #555;
+	height:400px;
+	width: 100%;
+	clear: both;
+}
+#l-footer{
+	float: left;
+	width: 30%;
+	height: 100%;
+	padding: 50px;
+	box-sizing: border-box;
+}
+#c-footer{
+	float: left;
+	height: 100%;
+	width: 30%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+#r-footer{
+	float: right;
+	height: 100%;
+	width: 40%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+#l-footer li a{
+	text-decoration: none;
+	line-height: 40px;
+	font-weight: bold;
+	font-family: arial;
+	color: white;
+}
+#l-footer ul{
+	list-style: none;
+}
+address{
+	padding-top: 20px;
+	color: white;
+	font-weight: bold;
+}
+#footer-end{
+	height: 50px;
+	width: 100%;
+	background-color: #555;
+	border-top: 2px solid black;
+	box-sizing: border-box;
+}
+
+
+
+
+
+/* this is css for hidden menu */
+#hidden-menu{
+	background-color: #c3c3c3;
+		height: 50px;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		padding: 5px 80px;
+		box-sizing: border-box;
+		text-align: center;
+		display: none;
+
+}
+
+#hidden-menu ul li{
+		display: inline;
+		padding: 5px;
+}
+#hidden-menu ul a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0px 15px;
+	line-height: 10px;
+	color: green;
+}
+#hidden-menu ul li:hover{
+	background: #c3c3c3;
+}
+#hidden-menu ul li a:hover{
+	color: white;
+}

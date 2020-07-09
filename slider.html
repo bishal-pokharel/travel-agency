@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slider</title>
+	<style type="text/css">
+		#map {
+      width: 450px;
+      height: 300px;
+    }
+	</style>
+	<link rel="stylesheet" type="text/css" href="slider.css">
+	<link rel="stylesheet" type="text/css" href="sliderImg.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="slider.js"></script>
+</head>
+<body>
+<div id="imageDiv"><img src="mockup4.jpg"></div>
+
+
+<div id="hidden-menu">
+	<ul>
+		<li><a href="">HOME</a></li>
+		<li><a href="">DESTINATION</a></li>
+		<li><a href="">ABOUT US</a></li>
+		<li><a href="">BLOG</a></li>
+		<li><a href="">CONTACT US</a></li>
+	</ul>
+</div>
+
+
+<div id="menu">
+	<ul>
+		<li><a href="">HOME</a></li>
+		<li><a href="">DESTINATION</a></li>
+		<li><a href="">ABOUT US</a></li>
+		<li><a href="">BLOG</a></li>
+		<li><a href="">CONTACT US</a></li>
+	</ul>
+</div>
+<h1 id="h1">WELCOME TO OUR TRAVEL AGENCY</h1>
+<div id="txt">
+	<p>TREAK PACKAGE</p>
+	<h2>UPPER MUSTANG TREK</h2>
+	<p>Trek among one of the moste remote place.</p>
+</div>
+<div id="search">
+	<input type="text" id="txt1">Search
+</div>
+
+<div id="logo1">
+	<h4>Call Us</h4>
+	<img src="call.png">
+</div>
+
+	<div id="logo2">
+	<h4>Message Us</h4>
+	<img src="fb.png">
+	</div>
+	<div id="logo3">
+	<h4>Email Us</h4>
+	<img src="email1.png">
+	</div>
+
+	<div id="sidebar"><img src="nepal.jpg"></div>
+	<div id="header">
+		<h1>We are Yakthung Adventures</h1>
+		<p>Yakthung Adventure Pvt. Ltd is a private travel company run by 20 years of experienced Tourism personalities. The main aim of our company is to meet the customers expectations by providing the best services. Responsible Tourism is the main focus by considering eco-friendly, community development and sustainability</p>
+	</div>
+
+	<div id="booking">
+		<h4 style="text-align: center;font-size: 25px;color: green;">-------Book your Destination-------</h4>
+		<div class="imgdiv"><img src="ilam.jpg">
+			<div class="txt"><h3>Ilam</h3>
+			<p>Price:<s>1000</s></p><br>
+			<p>Price:700</p></div>
+		</div>
+		<div class="imgdiv"><img src="pkr.jpg">
+			<div class="txt"><h3>pokhara</h3>
+			<p>Price:<s>1200</s></p><br>
+			<p>Price:1000</p></div>
+		</div>
+		<div class="imgdiv"><img src="abc.jpg">
+			<div class="txt"><h3>Arnapurna Base camp</h3>
+			<p>Price:<s>1500</s></p><br>
+			<p>Price:1200</p></div>
+		</div>
+		<div class="imgdiv"><img src="buddha.jpg">
+			<div class="txt"><h3>Lumbini</h3>
+			<p>Price:<s>1000</s></p><br>
+			<p>Price:500</p></div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div id="l-footer"><h3>Learn more</h3>
+		<ul>
+			<li><a href="">HOME</a></li>
+			<li><a href="">DESTINATION</a></li>
+			<li><a href="">ABOUT US</a></li>
+			<li><a href="">BLOG</a></li>
+			<li><a href="">CONTACT US</a></li>
+		</ul>
+
+		</div>
+		<div id="c-footer"><h3>Contact</h3>
+			<address>BIRATNAGAR</address>
+			<address>Airport line, Opposite of Irish hotel.</address>
+			<address>021-334851</address>
+			<address>Email:bishalpokhrel7@gmail.com</address>
+		</div>
+		<div id="r-footer"><h3>Map</h3>
+		<div id="map"></div></div>
+
+	</div>
+	<div id="footer-end">
+		<h3 style="float: left;">CopyRight reserved 2020</h3>
+		<p style="float: right;">made by bishal pokharel</p>
+	</div>
+
+
+
+	<script src="http://maps.google.com/maps/api/js"></script>
+<script type="text/javascript" src="gmaps.js"></script>
+ <script>
+    var map = new GMaps({
+      el: '#map',
+      lat: -41.253220,
+      lng: 174.790150
+    });
+  </script>
+</body>
+</html>
